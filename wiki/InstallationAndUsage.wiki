@@ -1,0 +1,41 @@
+#summary How to install and use. / インストール方法と使用方法
+
+= Installation =
+
+  # Download plugin files.
+  # Expand downloaded files.
+  # Upload "PublishPath" directory into your MT "plugins" directory. (Usualy /path/to/mt/plugins/)
+
+= Usage =
+
+Outputs publish path.
+{{{
+<mt:publishpath />
+}}}
+
+Outputs publish url.
+{{{
+<mt:publishurl />
+}}}
+
+
+-----
+
+
+= インストール方法 =
+
+  # プラグインファイルをダウンロードします。
+  # ダウンロードしたファイルを解凍します。
+  # 「PublishPath」フォルダをMTの「plugins」フォルダへアップロードします。(一般的には /path/to/mt/plugins/ のようなパスでしょう)
+
+= 使用方法 =
+
+生成パスを取得する場合。
+{{{
+<mt:publishpath />
+}}}
+
+生成URLを取得する場合。
+{{{
+<mt:publishurl />
+}}}
